@@ -1,0 +1,23 @@
+class A
+{
+public void display()
+{
+System.out.println("base class function");
+}
+}
+class B extends A
+{
+public void show()
+{
+System.out.println("derived class function");
+}
+}
+class Test
+{
+ public static void main(String[] args)
+{
+B obj=new B();
+obj.display();
+obj.show();
+}
+}          
